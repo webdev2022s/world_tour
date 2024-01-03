@@ -4,7 +4,7 @@ function LogoAppUpper() {
   return (
     <NavLink to="/world_tour/">
       <div className={styles.logo}>
-        <img src="/rocket.png" alt="upper Logo" />
+        <img src="rocket.png" alt="upper Logo" />
         <span>My Travel List</span>
       </div>
     </NavLink>
