@@ -1,0 +1,14 @@
+.fullpageloader {
+  margin: 1.5rem;
+  height: calc(100vh);
+  background-color: var(--color-dark--1);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}

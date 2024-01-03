@@ -1,0 +1,13 @@
+npm i react-router-dom@6
+npm i json-server "server": "json-server --watch data/foldername.json --port 5000 --delay 500 "
+npm i react-leaflet leaflet
+npm i react-datepicker
+
+
+remove deploy on github
+git remote rm origin
+
+upload to github
+npm i gh-pages --save-dev
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"

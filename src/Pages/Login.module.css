@@ -1,0 +1,49 @@
+.login {
+  margin: 2.5rem;
+  padding: 2.5rem 5rem;
+  background-color: var(--color-dark--1);
+  min-height: calc(100vh - 5rem);
+}
+
+.login form {
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  padding: 2rem 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 48rem;
+  margin: 8rem auto;
+}
+
+.login :global(.row) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.login button {
+  padding: 1rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1rem;
+  text-align: center;
+  font-size: 1.6rem;
+  color: black;
+
+  transition: all 0.8s;
+}
+
+.login button:hover {
+  background-color: var(--color-brand--2);
+  border-radius: 7px;
+  border: none;
+  color: white;
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem;
+}
+.login button:active {
+  transform: translateY(0.7rem);
+}

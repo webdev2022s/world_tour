@@ -1,0 +1,14 @@
+.logo {
+  display: inline-flex;
+}
+
+.logo img {
+  height: 5.2rem;
+}
+
+.logo span {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 15px;
+}

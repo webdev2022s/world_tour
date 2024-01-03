@@ -1,0 +1,52 @@
+.citySelected {
+  padding: 2rem 3rem;
+  max-height: 70%;
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  overflow: auto;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.citySelected h6 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: var(--color-light--1);
+}
+
+.citySelected h3 {
+  display: flex;
+  font-size: 1.9rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.citySelected h3 span {
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
+.citySelected p {
+  font-size: 1.6rem;
+}
+
+.citySelected a:link,
+.citySelected a:visited {
+  font-size: 1.6rem;
+  color: var(--color-brand--1);
+}
+
+.citySelected button {
+  background-color: var(--color-dark--2);
+  border: 1px solid white;
+}
