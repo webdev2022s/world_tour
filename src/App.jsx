@@ -26,7 +26,7 @@ function App() {
           <BrowserRouter>
             <Suspense fallback={<FullPageLoader />}>
               <Routes>
-                <Route index element={<Home />} />
+                <Route index path="/world_tour/" element={<Home />} />
                 <Route path="Product" element={<Product />} />
                 <Route path="Pricing" element={<Pricing />} />
                 <Route path="Login" element={<Login />} />
