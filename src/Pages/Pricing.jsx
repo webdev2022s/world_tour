@@ -18,7 +18,11 @@ export default function Pricing() {
             dicta iusto doloremque unde!
           </p>
         </div>
-        <img src="../img-2.jpg" alt="view of a large city" className="image" />
+        <img
+          src="/public/img-2.jpg"
+          alt="view of a large city"
+          className="image"
+        />
       </section>
     </main>
   );
