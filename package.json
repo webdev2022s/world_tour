@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://http://webdev2022s.github.io/",
+  "homepage": "http://http://webdev2022s.github.io/world_tour/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
