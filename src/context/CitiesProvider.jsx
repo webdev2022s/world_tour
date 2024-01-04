@@ -10,7 +10,7 @@ const initialState = {
   isLoading: false,
 };
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://city-api-nbzp.onrender.com";
 
 function reducer(state, action) {
   switch (action.type) {
