@@ -32,7 +32,7 @@ function App() {
                 <Route path="/world_tour/Login" element={<Login />} />
                 <Route path="*" element={<PageNotFound />} />
                 <Route
-                  path="App"
+                  path="/world_tour/App"
                   element={
                     <ProtectRoute>
                       <Application />

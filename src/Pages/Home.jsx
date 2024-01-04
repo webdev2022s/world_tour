@@ -19,7 +19,7 @@ export default function Home() {
             of. Never forget your wonderful experiences, and show your friends
             how you have wandered the world.
           </h2>
-          <Link to="/login" className="cta">
+          <Link to="/world_tour/login" className="cta">
             Start The App
           </Link>
         </section>

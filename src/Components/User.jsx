@@ -10,7 +10,7 @@ export default function User() {
   const isNavigate = useNavigate();
   const handleLogout = () => {
     logout();
-    isNavigate("/");
+    isNavigate("/world_tour/");
   };
   return (
     <div className={styles.user}>
