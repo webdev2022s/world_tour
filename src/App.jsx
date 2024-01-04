@@ -27,7 +27,7 @@ function App() {
             <Suspense fallback={<FullPageLoader />}>
               <Routes>
                 <Route index path="/world_tour/" element={<Home />} />
-                <Route path="Product" element={<Product />} />
+                <Route path="/world_tour/Product" element={<Product />} />
                 <Route path="Pricing" element={<Pricing />} />
                 <Route path="Login" element={<Login />} />
                 <Route path="*" element={<PageNotFound />} />
