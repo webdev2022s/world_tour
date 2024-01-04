@@ -13,10 +13,10 @@ function PageNav() {
         <LogoAppUpper />
         <ul>
           <li>
-            <NavLink to="/product">Product</NavLink>
+            <NavLink to="/world_tour/product">Product</NavLink>
           </li>
           <li>
-            <NavLink to="/pricing">Pricing</NavLink>
+            <NavLink to="/world_tour/pricing">Pricing</NavLink>
           </li>
           <li>
             {!isAuthenticated ? (
