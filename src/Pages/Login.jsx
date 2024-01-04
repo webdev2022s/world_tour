@@ -17,7 +17,8 @@ function Login() {
   };
 
   useEffect(() => {
-    if (isAuthenticated) return isNavigate("/app", { replace: true });
+    if (isAuthenticated)
+      return isNavigate("/world_tour/app", { replace: true });
   }, [isAuthenticated, isNavigate]);
   return (
     <main className={styles.login}>
