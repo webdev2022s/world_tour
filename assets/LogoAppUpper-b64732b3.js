@@ -1,0 +1,1 @@
+import{j as o,N as s}from"./index-b7340826.js";const r="_logo_1pk9e_1",e={logo:r};function n(){return o.jsx(s,{to:"/",children:o.jsxs("div",{className:e.logo,children:[o.jsx("img",{src:"rocket.png",alt:"upper Logo"}),o.jsx("span",{children:"My Travel List"})]})})}export{n as L};
