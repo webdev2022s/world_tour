@@ -28,8 +28,8 @@ function App() {
               <Routes>
                 <Route index path="/world_tour/" element={<Home />} />
                 <Route path="/world_tour/Product" element={<Product />} />
-                <Route path="Pricing" element={<Pricing />} />
-                <Route path="Login" element={<Login />} />
+                <Route path="/world_tour/Pricing" element={<Pricing />} />
+                <Route path="/world_tour/Login" element={<Login />} />
                 <Route path="*" element={<PageNotFound />} />
                 <Route
                   path="App"

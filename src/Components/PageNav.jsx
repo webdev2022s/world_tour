@@ -21,7 +21,7 @@ function PageNav() {
           <li>
             {!isAuthenticated ? (
               <NavLink
-                to="/login"
+                to="/world_tour//login"
                 className={`${styles.ctaLink} ${
                   isAuthenticated ? styles.hide : ""
                 }`}
