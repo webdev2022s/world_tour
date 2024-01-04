@@ -53,7 +53,7 @@ export default function Form() {
       position: { lat, lng },
     };
     await createCity(newCities);
-    isNavigate("/App/cities");
+    isNavigate("/world_tour/App/cities");
   };
 
   if (isLoadingLocation) return <Loader />;
